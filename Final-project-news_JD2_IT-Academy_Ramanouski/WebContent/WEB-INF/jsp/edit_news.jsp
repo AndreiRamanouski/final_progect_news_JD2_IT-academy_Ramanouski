@@ -38,7 +38,7 @@ height:250px;
 
 
 	
-<div id="container" align="center" style="position: absolute; left: 150px; right: 150px;">
+<div id="container" align="center">
 	<form:form action="AdminController?command=savenews" modelAttribute="singleNews" method="POST">
 		<form:hidden path="id" />
 
